@@ -50,6 +50,8 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")  // or latest version
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.7")
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
@@ -60,6 +62,7 @@ dependencies {
     implementation(libs.androidx.ui.test.junit4.android)
     implementation(libs.androidx.junit.ktx)
     testImplementation(libs.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))

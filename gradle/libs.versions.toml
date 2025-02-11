@@ -13,6 +13,7 @@ firebaseFirestoreKtx = "25.1.2"
 testng = "6.9.6"
 uiTestJunit4Android = "1.7.7"
 junitKtx = "1.2.1"
+kotlinx-coroutines-test = "1.7.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -34,6 +35,7 @@ firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-fires
 testng = { group = "org.testng", name = "testng", version.ref = "testng" }
 androidx-ui-test-junit4-android = { group = "androidx.compose.ui", name = "ui-test-junit4-android", version.ref = "uiTestJunit4Android" }
 androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines-test" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
